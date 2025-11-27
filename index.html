@@ -19,7 +19,7 @@
       </ul>
     </div>
   </nav>
-  <nav id="hamburger-nav" >
+  <nav id="hamburger-nav">
     <div class="logo">Dasun Batheegama</div>
     <div class="hamburger-menu">
       <div class="hamburger-icon" onclick="toggleMenu()">
@@ -34,7 +34,25 @@
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
     </div>
-  </nav>  
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assests/profile-pic.png" alt="Dasun Batheegama profile picture"/>
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Dasun Batheegama</h1>
+      <p class="section__text__p2">Full Stack Developer</p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          onclick="window.open('./assests/resume-example.pdf')"
+          >
+          Download CV     
+        </button>
+      </div>
+    </div>
+  </section>  
   <script src="script.js"></script>  
 </body>
 </html>
